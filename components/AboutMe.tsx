@@ -7,12 +7,12 @@ export default function AboutMe() {
     <div className="flex flex-col w-full bg-[#121212] p-4 gap-2 rounded-2xl">
       <h1 className="text-base font-medium text-[#c5c5c5]">About me</h1>
       <p className="text-sm ">
-        Hey, I`&apos`m Leo! an aspiring software engineer born in Ilo Moquegua,
-        Peru. I Graduated from the IB program at 16, wrote cool research papers
-        at that time related to my love for innovative electric machinery. But
-        felt limited in my learning as there were no facilities in Lima where a
-        student could get hands on experience. This took my passion of building
-        to the digital world, where I find myself now.
+        Hey, I{`&apos`}m Leo! an aspiring software engineer born in Ilo
+        Moquegua, Peru. I Graduated from the IB program at 16, wrote cool
+        research papers at that time related to my love for innovative electric
+        machinery. But felt limited in my learning as there were no facilities
+        in Lima where a student could get hands on experience. This took my
+        passion of building to the digital world, where I find myself now.
       </p>
       <h1 className="text-base font-medium text-[#c5c5c5]">5 songs</h1>
       <ol className="gap-1">
