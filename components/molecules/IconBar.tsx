@@ -86,6 +86,21 @@ const IconBar = () => {
           />
         </svg>
       </a>
+      <a target="_blank" href="https://music.apple.com/profile/Leomq">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 25 25"
+          xmlns="http://www.w3.org/2000/svg"
+          className="inline text-white hover:text-[#A0A0A0] transition-all duration-100"
+          fill="none"
+        >
+          <path
+            d="M22 13c-.027-5.497-4.497-10-10-10s-9.973 4.503-10 10h2.5c.828 0 1.5.672 1.5 1.5v7c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-8.5c.027-6.601 5.394-12 12-12s11.973 5.399 12 12v8.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-7c0-.828.672-1.5 1.5-1.5h2.5z"
+            className="fill-current"
+          />
+        </svg>
+      </a>
     </div>
   );
 };

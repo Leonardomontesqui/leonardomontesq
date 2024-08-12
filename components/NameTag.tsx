@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function NameTag() {
   return (
     <div className="flex w-full bg-[#121212] p-4 gap-4 items-center rounded-2xl">
-      <Image
+      <img
         src="/MeSurfingCropped.png"
         width={120}
         height={120}

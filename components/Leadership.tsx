@@ -3,25 +3,23 @@ import ExperienceCard from "./molecules/ExperienceCard";
 
 export default function Leadership() {
   return (
-    <div className="flex items-center">
-      <h1 className="text-base font-medium -rotate-90 w-fit h-fit text-[#c5c5c5]">
+    <div className="flex flex-col gap-2">
+      <h1 className="text-base font-medium  w-fit h-fit text-[#c5c5c5]">
         Leadership
       </h1>
-      <section className="overflow-x flex items-center gap-2">
+      <section className="overflow-x-auto flex items-center gap-2 no-scrollbar">
         <ExperienceCard
           image_url={"/QMINDLogo.png"}
-          alt={"PhysNova Mobile"}
-          to={"cd"}
-          tags={[]}
+          alt={"QMIND Logo"}
+          to={"https://qmind.ca/"}
           date={"03.2023 - Now"}
           title={"Director of ER"}
           description={"QMIND"}
         />
         <ExperienceCard
           image_url={"/CUCAILogo.png"}
-          alt={"PhysNova Mobile"}
-          to={"cd"}
-          tags={[]}
+          alt={"CUCAI Logo"}
+          to={"https://www.cucai.ca/"}
           date={"03.2024 - Now"}
           title={"Director of Spons."}
           description={"CUCAI"}
@@ -29,8 +27,7 @@ export default function Leadership() {
         <ExperienceCard
           image_url={"/Scinova_logo.png"}
           alt={"Founder"}
-          to={"cd"}
-          tags={[]}
+          to={""}
           date={"01.2023 - Now"}
           title={"Founder"}
           description={"IB Tutoring Company"}
