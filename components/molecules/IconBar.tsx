@@ -3,7 +3,7 @@ import React from "react";
 const IconBar = () => {
   return (
     <div className=" flex flex-row flex-wrap max-w-[700px] w-4/5 gap-3">
-      <a target="_blank" href="https://www.linkedin.com/in/marc-cham/">
+      <a target="_blank" href="http://linkedin.com/in/leo-mont">
         <svg
           width="18"
           height="18"
@@ -18,7 +18,7 @@ const IconBar = () => {
           />
         </svg>
       </a>
-      <a target="_blank" href="https://github.com/marcelo-cm">
+      <a target="_blank" href="https://github.com/Leonardomontesqui">
         <svg
           width="16"
           height="16"
@@ -33,7 +33,7 @@ const IconBar = () => {
           />
         </svg>
       </a>
-      <a target="_blank" href="mailto:marcechaman@gmail.com">
+      <a target="_blank" href="mailto:leo.mq06@gmail.com">
         <svg
           width="15"
           height="15"
@@ -48,7 +48,7 @@ const IconBar = () => {
           />
         </svg>
       </a>
-      <a target="_blank" href="/MarceloChamanMallqui.pdf">
+      <a target="_blank" href="/LeonardoMontesQ-Resume.pdf">
         <svg
           width="16"
           height="16"
@@ -71,22 +71,7 @@ const IconBar = () => {
           />
         </svg>
       </a>
-      <a target="_blank" href="https://rooms.xyz/marcelo/bedroom">
-        <svg
-          width="16"
-          height="16"
-          viewBox="0 0 25 25"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="inline text-white hover:text-[#A0A0A0] transition-all duration-100"
-        >
-          <path
-            d="M17.7778 18.2778V1.61111H13.3334V0.5H2.22228V18.2778H6.10352e-05V20.5H13.3334V3.83333H15.5556V20.5H20.0001V18.2778H17.7778ZM11.1112 18.2778H4.44451V2.72222H11.1112V18.2778ZM7.77784 9.38889H10.0001V11.6111H7.77784V9.38889Z"
-            className="fill-current"
-          />
-        </svg>
-      </a>
-      <a target="_blank" href="https://twitter.com/marcelochaman">
+      <a target="_blank" href="https://x.com/LeoMq06">
         <svg
           width="16"
           height="16"

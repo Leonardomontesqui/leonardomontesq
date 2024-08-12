@@ -1,10 +1,12 @@
+import { Link, SquareArrowOutUpRight } from "lucide-react";
 import React from "react";
+import LinkedItem from "./molecules/LinkedItem";
 
 export default function AboutMe() {
   return (
     <div className="flex flex-col w-full h-full bg-[#121212] p-4 gap-2 rounded-2xl">
-      <h1 className="text-base font-medium">About me</h1>
-      <p className="text-sm text-[#c5c5c5]">
+      <h1 className="text-base font-medium text-[#c5c5c5]">About me</h1>
+      <p className="text-sm ">
         I was born in Ilo Moquegua, Peru and have lived my life moving from
         place to place. I was fortunate enough to live 6 years of my life in
         Canada and perfect my english. Graduated from the IB program at 16,
@@ -14,7 +16,14 @@ export default function AboutMe() {
         experience. This took my passion of building to the digital world, where
         I find myself now.
       </p>
-      <h1 className="text-base font-medium">5 songs</h1>
+      <h1 className="text-base font-medium text-[#c5c5c5]">5 songs</h1>
+      <ol className="gap-1">
+        <LinkedItem text={"Boranda - Sonora Ponceña"} link={"cd"} />
+        <LinkedItem text={"Lil Baby Crush - Jordan Ward"} link={"cd"} />
+        <LinkedItem text={"Rosas - La Oreja de Van Goh"} link={"cd"} />
+        <LinkedItem text={"Nueve y Quince - Aventura"} link={"cd"} />
+        <LinkedItem text={"You Got Me - The Roots"} link={""} />
+      </ol>
     </div>
   );
 }
