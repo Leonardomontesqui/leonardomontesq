@@ -1,6 +1,6 @@
 import { Moon, Sun } from "lucide-react";
-import Experience from "../components/Experience";
-import Profile from "../components/Profile";
+import Experience from "../components/(Experience)/Experience";
+import Profile from "../components/(Profile)/Profile";
 
 export default function Home() {
   return (

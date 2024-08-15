@@ -1,5 +1,14 @@
 import React from "react";
-import ExperienceCard from "./molecules/ExperienceCard";
+import ExperienceCard from "../ui/ExperienceCard";
+
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 export default function Projects() {
   return (
@@ -11,7 +20,7 @@ export default function Projects() {
         <ExperienceCard
           image_url={"/PhysNovaLaptop.gif"}
           alt={"PhysNova gameplay gif"}
-          to={"https://physnova.vercel.app/"}
+          to={""}
           date={"05.2024 - Now"}
           title={"PhysNova"}
           description={"IB Education Software"}

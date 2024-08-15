@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceCard from "./molecules/ExperienceCard";
+import ExperienceCard from "../ui/ExperienceCard";
 
 export default function Research() {
   return (

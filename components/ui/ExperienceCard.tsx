@@ -1,7 +1,5 @@
 import React from "react";
 
-import Image from "next/image";
-
 const ExperienceCard = ({
   image_url,
   alt,
@@ -19,7 +17,7 @@ const ExperienceCard = ({
 }) => {
   return (
     <a
-      className="active:scale-[103%] break-inside-avoid  flex flex-col cursor-pointer transition-all duration-300 hover:shadow-xl"
+      className="active:scale-[103%] break-inside-avoid flex flex-col cursor-pointer transition-all duration-300 hover:shadow-xl rounded-md"
       href={to}
       target="_blank"
     >
@@ -35,7 +33,7 @@ const ExperienceCard = ({
         </div>
       </div>
 
-      <div className="flex flex-col bg-[#232323] hover:bg-[#292929] rounded-b-md transition-all p-2 w-44 md:w-full h-12">
+      <div className="flex flex-col bg-[#232323] hover:bg-[#292929] rounded-b-md transition-all p-2 w-44 md:w-full ">
         <p className="select-none text-sm "> {title}</p>
         <p className="text-xs text-[#c5c5c5]"> {description}</p>
       </div>

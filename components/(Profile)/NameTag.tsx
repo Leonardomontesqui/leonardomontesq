@@ -1,6 +1,6 @@
 import React from "react";
-import IconBar from "./molecules/IconBar";
-import Image from "next/image";
+
+import IconBar from "../molecules/IconBar";
 
 export default function NameTag() {
   return (
