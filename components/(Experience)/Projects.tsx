@@ -20,7 +20,7 @@ export default function Projects() {
         <ExperienceCard
           image_url={"/PhysNovaLaptop.gif"}
           alt={"PhysNova gameplay gif"}
-          to={""}
+          to={"https://physnova.vercel.app/"}
           date={"05.2024 - Now"}
           title={"PhysNova"}
           description={"IB Education Software"}
