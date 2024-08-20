@@ -4,7 +4,7 @@ import IconBar from "../molecules/IconBar";
 
 export default function NameTag() {
   return (
-    <div className="flex w-full bg-[#121212] p-4 gap-4 items-center rounded-2xl">
+    <div className="flex w-full max-w-[592px] bg-[#121212] p-4 gap-4 items-center rounded-2xl">
       <img
         src="/MeSurfingCropped.png"
         width={120}

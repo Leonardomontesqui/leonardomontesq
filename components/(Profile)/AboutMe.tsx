@@ -17,14 +17,14 @@ export default function AboutMe() {
       <h1 className="text-base font-medium text-[#c5c5c5]">5 songs</h1>
       <ol className="gap-1">
         <MusicItem
-          text={"Boranda - Sonora Ponceña"}
-          link={"https://www.youtube.com/watch?v=0ykUIOdmkj8"}
+          text={"Sin Sentimiento - Grupo Niche"}
+          link={"https://www.youtube.com/watch?v=OwbQMh7ItuU"}
           type={"salsa"}
         />
         <MusicItem
-          text={"Lil Baby Crush - Jordan Ward"}
-          link={"https://www.youtube.com/watch?v=Sk0-6lSiBf8"}
-          type={"r&b"}
+          text={"Denver - Jack Harlow"}
+          link={"https://youtu.be/i4o57yjyTMc?si=ZHOSQkRypCRU9W_h"}
+          type={"hiphop"}
         />
         <MusicItem
           text={"Rosas - La Oreja de Van Goh"}
