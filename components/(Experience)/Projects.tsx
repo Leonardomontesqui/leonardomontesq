@@ -16,7 +16,7 @@ export default function Projects() {
       <h1 className="text-base font-medium w-fit h-fit text-[#c5c5c5]">
         Projects
       </h1>
-      <section className="overflow-x-scroll flex items-center gap-2 no-scrollbar">
+      <section className="overflow-x-scroll overflow-y-hidden flex items-center gap-2 no-scrollbar ">
         <ExperienceCard
           image_url={"/PhysNovaLaptop.gif"}
           alt={"PhysNova gameplay gif"}
