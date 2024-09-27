@@ -78,7 +78,7 @@ const MusicItem = ({
 
   return (
     <a
-      className="flex underline items-center gap-1.5 w-fit underline hover:text-[#c5c5c5]"
+      className="flex items-center gap-1.5 w-fit underline hover:text-[#c5c5c5]"
       href={link}
       target="_blank"
     >

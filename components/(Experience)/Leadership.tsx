@@ -7,7 +7,7 @@ export default function Leadership() {
       <h1 className="text-base font-medium  w-fit h-fit text-[#c5c5c5]">
         Leadership
       </h1>
-      <section className="overflow-x-auto flex items-center gap-2 no-scrollbar">
+      <section className="overflow-x-scroll flex items-center gap-2 no-scrollbar">
         <ExperienceCard
           image_url={"/QMINDLogo.png"}
           alt={"QMIND Logo"}

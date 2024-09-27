@@ -14,35 +14,6 @@ export default function AboutMe() {
         had limited opportunities for hands on experience. This took my passion
         of building to the digital world, where I find myself now.
       </p>
-      <h1 className="text-base font-medium text-[#c5c5c5]">5 songs</h1>
-      <ol className="gap-1">
-        <MusicItem
-          text={"Sin Sentimiento - Grupo Niche"}
-          link={"https://www.youtube.com/watch?v=OwbQMh7ItuU"}
-          type={"salsa"}
-        />
-        <MusicItem
-          text={"Denver - Jack Harlow"}
-          link={"https://youtu.be/i4o57yjyTMc?si=ZHOSQkRypCRU9W_h"}
-          type={"hiphop"}
-        />
-        <MusicItem
-          text={"Rosas - La Oreja de Van Goh"}
-          link={"https://www.youtube.com/watch?v=enup62u1LEk"}
-          type={"pop"}
-        />
-        <MusicItem
-          text={"Nueve y Quince - Aventura"}
-          link={"https://www.youtube.com/watch?v=YxwjoBYmlHQ"}
-          type={"bachata"}
-        />
-        <MusicItem
-          text={"You Got Me - The Roots"}
-          link={"https://www.youtube.com/watch?v=IKc4QLiCG8c"}
-          type={"hiphop"}
-        />
-      </ol>
-      <ModalExperience />
     </div>
   );
 }
